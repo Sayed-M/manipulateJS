@@ -4,3 +4,7 @@ body{
 
 .clear{clear: both}
 
+.my-canvas{
+    width: 600px;
+    height: 600px;;
+}

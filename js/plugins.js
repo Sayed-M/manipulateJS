@@ -3,36 +3,38 @@
 $(document).ready(function () {
     "use strict";
 
-    var seconds     = 10,
+    // var seconds     = 10,
 
-        countDiv    = document.getElementById('countdown'),
+    //     countDiv    = document.getElementById('countdown'),
 
-        secondPass,
+    //     secondPass,
 
-        countdown   = setInterval(function () {
+    //     countdown   = setInterval(function () {
             
-            secondPass();
+    //         secondPass();
 
-        }, 1000);
+    //     }, 1000);
 
-    function secondPass() {
+    // function secondPass() {
 
-        var minutes     = Math.floor(seconds / 60),
+    //     var minutes     = Math.floor(seconds / 60),
 
-            remSeconds  = seconds % 60;
+    //         remSeconds  = seconds % 60;
 
-        if (remSeconds < 10) {
-            remSeconds = '0' + remSeconds;
-        }
+    //     if (remSeconds < 10) {
+    //         remSeconds = '0' + remSeconds;
+    //     }
 
-        countDiv.innerHTML = minutes + ':' + remSeconds;
+    //     countDiv.innerHTML = minutes + ':' + remSeconds;
 
-        if (seconds > 0) {
-            seconds -= 1;
-        } else {
-            clearInterval(countdown);
-            countDiv.innerHTML = 'Done';
-        }
-    }
+    //     if (seconds > 0) {
+    //         seconds -= 1;
+    //     } else {
+    //         clearInterval(countdown);
+    //         countDiv.innerHTML = 'Done';
+    //     }
+    // }
+
+    
     
 });
